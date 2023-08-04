@@ -1,0 +1,11 @@
+namespace: default
+name: prueba4
+replicas: 1
+containername: contenedorprueba1
+image: kicbase/echo-server:1.0
+containerports:
+- name: http
+  protocol: tcp
+  port: 10000
+labels:
+  app: app-prueba

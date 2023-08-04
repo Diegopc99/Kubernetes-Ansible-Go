@@ -1,0 +1,2 @@
+[rockpi]
+rockpi-master ansible_ssh_host=192.168.2.128 ansible_ssh_user=rock

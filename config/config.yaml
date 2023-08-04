@@ -1,0 +1,12 @@
+# Server configuration
+server:
+  port: 8080
+  host: 0.0.0.0
+
+# Log configuration
+logging:
+  level: info
+  file: /var/log/kubernetes-api-go.log
+
+# Mode: release or debug
+mode: "debug"
